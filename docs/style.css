@@ -1,0 +1,10 @@
+:root { --paper:#F6F3EC; --ink:#1B1A18; --sub:#5A564F; --accent:#C8432B; --line:rgba(0,0,0,.12); }
+@media (prefers-color-scheme: dark) { :root { --paper:#17171A; --ink:#F2EEE6; --sub:#B0ADA6; --accent:#E8664A; --line:rgba(255,255,255,.14); } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.8 -apple-system,"Hiragino Sans",system-ui,sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 5rem 2.25rem; border-left: 6px solid var(--accent); margin-left: max(1.25rem, calc(50% - 22rem)); }
+h1,h2 { font-family: "New York","Hiragino Mincho ProN",serif; line-height:1.35; }
+h1 { font-size: 2rem; margin: 0 0 .25rem; } h2 { font-size: 1.3rem; margin: 2.4rem 0 .4rem; }
+p,li { color: var(--ink); } .sub { color: var(--sub); font-size: .95rem; }
+a { color: var(--accent); } hr { border:0; border-top:1px solid var(--line); margin: 3rem 0; }
+nav a { margin-right: 1.2rem; } nav { margin: 1rem 0 2rem; }
